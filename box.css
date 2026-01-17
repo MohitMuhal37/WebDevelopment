@@ -2,12 +2,22 @@ div{
     width: 200px;
     height: 200px;
 }
+p{
+    margin: -1;
+}
 #box{
     background-color: cadetblue;
+    border: 10px solid black;
+    padding: 20px;
 }
 #box1{
     background-color: gold;
+    border: 20px solid black;
+    border-width: 20px 10px;
+    margin-left: 17rem;
 }
 #box2{
     background-color: indianred;
+      border: 10px solid black;
+      margin-left: 3rem;
 }
