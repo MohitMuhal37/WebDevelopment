@@ -1,0 +1,13 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+#box{
+    background-color: cadetblue;
+}
+#box1{
+    background-color: gold;
+}
+#box2{
+    background-color: indianred;
+}
