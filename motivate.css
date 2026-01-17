@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+h1{
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+p{
+    color: white;
+}
+
+#pic{
+    border: 5px solid white;
+    width: 500px;
+    height: 300px;
+    margin-left: 24rem;
+    margin-top: 3rem;
+}
+
+.txt{
+    text-align: center;
+}
