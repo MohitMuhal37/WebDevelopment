@@ -1,4 +1,7 @@
 .flag{
     width: 900px;
     height: 600px;
+    background-color: firebrick;
+    color: white;
+    font-size: 700px;
 }
