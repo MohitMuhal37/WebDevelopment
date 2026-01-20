@@ -1,0 +1,16 @@
+.blue{
+    background-color: blue;
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 500px;
+    height: 200px;
+}
+
+.red{
+    background-color: red;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 150px;
+}
