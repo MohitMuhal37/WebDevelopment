@@ -1,17 +1,24 @@
+.red ,.green ,.blue{
+    color: white;
+}
+
 .red{
     width: 200px;
     height: 200px;
     background-color: firebrick;
+    display: inline-block;
 }
 
 .green{
     width: 200px;
     height: 200px;
     background-color: rgb(1, 55, 1);
+    display: inline-block;
 }
 
 .blue{
      width: 200px;
      height: 200px;
      background-color: blueviolet;
+     display: inline-block;
 }
