@@ -1,0 +1,17 @@
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: firebrick;
+}
+
+.green{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(1, 55, 1);
+}
+
+.blue{
+     width: 200px;
+     height: 200px;
+     background-color: blueviolet;
+}
