@@ -1,7 +1,7 @@
 .blue{
     background-color: blue;
     position: relative;
-    top: 200px;
+    top: 150px;
     left: 200px;
     width: 500px;
     height: 300px;
@@ -13,6 +13,7 @@
     width: 200px;
     height: 200px;
     position: absolute;
-    top: 150px;
-    left: 250px ;
+    /* : 150px; */
+     left: 250px;
+    top: 150px ;
 }
