@@ -1,0 +1,17 @@
+   #box{
+         width: 700px;
+         height: 500px;
+         background-color: firebrick;    
+        }
+
+       @media(max-width:480px){
+        body{
+            background-color: antiquewhite;
+        }
+
+        @media (max-width:1200px){
+        body{
+            background-color: cadetblue;
+        }
+        }
+       }
