@@ -4,14 +4,21 @@
          background-color: firebrick;    
         }
 
-       @media(max-width:480px){
+       @media(max-width:480px) and (min-width:480px){
         body{
             background-color: antiquewhite;
         }
+        }
 
-        @media (max-width:1200px){
+          @media(max-width:481px) and (min-width:1200px){
         body{
-            background-color: cadetblue;
+            background-color: firebrick;
         }
         }
-       }
+
+          @media(max-width:1201px) and (min-width:2400px){
+        body{
+            background-color: goldenrod;
+        }
+        }
+       
