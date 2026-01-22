@@ -5,25 +5,35 @@
         }
 
        @media(max-width:480px){
-        body{
+        #box{
             background-color: palevioletred;
         }
         }
 
-          @media(min-width:481px) and (max-width:1200px){
-        body{
-            background-color: firebrick;
+          @media(min-width:481px) and (max-width:900px){
+        #box{
+            background-color: palegreen;
         }
         }
 
-          @media(min-width:1201px) and (max-width:1600px){
-        body{
+          @media(min-width:901px) and (max-width:1200px){
+        #box{
             background-color: goldenrod;
         }
         }
+          @media(min-width:1201px) and (max-width:1600px){
+        #box{
+            background-color: darkcyan;
+        }
+        }
+          @media(min-width:1601px) and (max-width:2400px){
+        #box{
+            background-color: sienna;
+        }
+        }
        
-         @media(min-width:1601px){
-            body{
-                background-color: chocolate;
+         @media(min-width:2401px){
+            #box{
+                background-color: limegreen;
             }
          }
