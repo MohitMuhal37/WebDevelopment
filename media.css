@@ -4,7 +4,7 @@
          background-color: firebrick;    
         }
 
-       @media(max-width:480px) and (min-width:480px){
+       @media(max-width:480px){
         body{
             background-color: antiquewhite;
         }
@@ -16,9 +16,14 @@
         }
         }
 
-          @media(max-width:1201px) and (min-width:2400px){
+          @media(max-width:1201px) and (min-width:1600px){
         body{
             background-color: goldenrod;
         }
         }
        
+         @media(min-width:1601px){
+            body{
+                background-color: chocolate;
+            }
+         }
