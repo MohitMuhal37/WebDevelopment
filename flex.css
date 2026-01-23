@@ -5,7 +5,12 @@
     gap: 10px;
     justify-content: right;
     font-size: 2rem;
-    
+}
+
+ .log{
+    float: left;
+    height: 2.3rem;
+    width: 200px;
 }
 
 .container > li{
