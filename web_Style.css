@@ -1,0 +1,21 @@
+h1{
+    font-family: poppins;
+    font-size: 50px;
+}
+
+.title-image{
+    height: 200px;
+    width: 300px;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+span{
+    color: midnightblue;
+}
