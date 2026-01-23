@@ -26,4 +26,7 @@
         background-color: white;
         color: #333;
     }
+    .log{
+        display: none;
+    }
 }
