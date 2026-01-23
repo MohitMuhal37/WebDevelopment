@@ -18,11 +18,11 @@ h1{
 }
 
 .right{
-    float: right;
+    float: left;
 }
 
 .left{
-    float: left;
+    float: right;
 }
 
 .card{
