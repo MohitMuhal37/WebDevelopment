@@ -1,0 +1,23 @@
+.container{
+    background-color: rgb(206, 190, 11);
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    font-size: 2rem;
+    
+}
+
+.container > li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+@media (max-width: 680px){
+    .container{
+        display: block;
+        justify-items: center;
+        background-color: white;
+        color: #333;
+    }
+}
