@@ -1,8 +1,9 @@
 .container{
     color: white;
     font-size: 2rem;
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
+    flex-direction: column;
+    border: 5px solid gray;
 }
 
 .red   {background-color: red}
