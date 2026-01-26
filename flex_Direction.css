@@ -1,9 +1,16 @@
+.contain{
+    border: 5px solid black;
+    height: 25rem;
+    width: 100%;
+}
+
 .container{
     color: white;
     font-size: 2rem;
-    display: inline-flex;
-    flex-direction: column;
-    border: 5px solid gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .red   {background-color: red}
