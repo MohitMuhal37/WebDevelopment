@@ -1,12 +1,9 @@
 body{
     font-family: monospace;
-    
-}
-.clr{
-    overflow: hidden;
     width: 90%;
     margin: auto;
 }
+
 .lg{
     float: left;
 }
@@ -24,7 +21,18 @@ li{
     color: white;
 }
 
-#contain{
-
+.showcase{
     background-image: url(Assets/images/student.jpg);
+    min-height: 600px;
+    background-position: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.showcase h1{
+    color : #fff;
+    font-size: 50px;
+    line-height: 1.5em;
+    padding-top: 60px;
+    padding-left: 10px;
 }
