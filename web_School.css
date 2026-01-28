@@ -1,17 +1,30 @@
 body{
     font-family: monospace;
+    
 }
-
+.clr{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
 .lg{
     float: left;
 }
 #container{
     display: flex;
-    background-color: beige;
+    background-color: rgb(185, 185, 159);
     padding: 31px;
+    justify-content: right;
+    gap: 15px;
 }
 
 li{
     list-style: none;
-    font-size: 3rem;
+    font-size: 2rem;
+    color: white;
+}
+
+#contain{
+
+    background-image: url(Assets/images/student.jpg);
 }
