@@ -11,20 +11,19 @@
     flex-direction: row;
     font-size: 2rem;
     color: #fff;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* justify-content: flex-end; */
     justify-content: center;
     justify-content: space-around;
-
-    /* align-items: center;
-    align-items:flex-end; */
+    /* align-items: center; */
+    /* align-items: center;*/
 }
 
-.container > *{
+/* .container > *{
     height: 100px;
     width: 100px;
     text-align: center;
-}
+} */
 .green{
     order: 1;
 }
