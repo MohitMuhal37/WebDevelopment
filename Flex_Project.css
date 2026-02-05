@@ -1,0 +1,32 @@
+.pricing-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-plan{
+    background-color: rgb(101, 94, 94);
+    gap: 10px;
+    padding: 20px;
+    color: #fff;
+}
+
+.plan-title{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.plan-price{
+    text-align: center;
+}
+
+.plan-features{
+    
+    list-style: none;
+}
+
+.plan-button{
+    background-color: rgb(182, 53, 6);
+    color: #fff;
+}
