@@ -1,0 +1,13 @@
+.box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.inner-box{
+    background-color: cadetblue;
+    max-width: 400px;
+    padding: 20px;
+}
