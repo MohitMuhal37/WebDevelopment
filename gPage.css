@@ -1,0 +1,17 @@
+.box{
+    display: grid;
+    gap: 48px;
+    height: 100vh;
+    grid-template-columns: repeat(2, 1fr) 1.5fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+.box1{
+    display: flex;
+    background-color: cornsilk;
+    font-size: 2rem;
+    color: brown;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
