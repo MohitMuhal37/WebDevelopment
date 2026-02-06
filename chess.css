@@ -1,18 +1,19 @@
 
 .container{
-margin: auto;
-  width: 60%;
+  margin: auto;
+  width: 800px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr auto;
+  border: 2px solid #333;
 }
 
 .black{
-    background-color: #b58863;
+    background-color: #333;
     height: 100px;
     width: 100px;
 }
 .white{
-    background-color: #f0d9b5;
+    background-color: #f2f2f2;
     height: 100px;
     width: 100px;
 }
