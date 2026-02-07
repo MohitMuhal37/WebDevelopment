@@ -19,3 +19,8 @@
 .person{
     grid-column: span 2;
 }
+
+.book{
+    order: 1;
+    grid-column: span 2;
+}
