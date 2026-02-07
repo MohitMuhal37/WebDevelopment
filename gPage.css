@@ -1,7 +1,7 @@
 .box{
     display: grid;
-    gap: 48px;
-    height: 100vh;
+    gap: 4px;
+    /* height: 100vh; */
     grid-template-columns: repeat(2, 1fr) 1.5fr;
     grid-template-rows: repeat(2, 1fr);
 }
@@ -23,4 +23,7 @@
 .book{
     order: 1;
     grid-column: span 2;
+}
+.man{
+    grid-row: span 2;
 }
