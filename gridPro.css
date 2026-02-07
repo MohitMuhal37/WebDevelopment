@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .container{
@@ -14,3 +14,35 @@ body{
     grid-template-rows: 414px 130px 155px 22px;
 }
 
+.white{
+ background-color: #F0F1EC;
+}
+
+.red{
+    background-color: #E72F24;
+}
+
+.blue{
+    background-color:#004592 ;
+}
+
+.black{
+    background-color: #232629;
+}
+
+.yellow{
+    background-color: #F9D01E;
+}
+/* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
