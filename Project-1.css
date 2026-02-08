@@ -1,0 +1,54 @@
+.container{
+    margin: 0 auto;
+    width: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav1{
+    display: flex;
+    gap: 20px;
+    padding-left: 20rem;
+}
+.head{
+    display: flex;
+    justify-content: left;
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+    padding-top: 27px;
+}
+
+.Show{
+    background-image: url("Assets/images/goku.jpg");
+    min-height: 600px ;
+    background-position: center;
+}
+
+.box{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 10px;
+    border: 2px solid black;
+    color: #f3f3f3;
+}
+
+.item1{
+    grid-column: span 2;
+    background-color: #333;
+    padding: 20px;
+}
+
+.item2{
+     grid-column: span 2;
+     background-color: #333;
+     padding: 20px;
+}
+
+.item3{
+    grid-row: span 2;
+      background-color: #333;
+     padding: 20px;
+}
