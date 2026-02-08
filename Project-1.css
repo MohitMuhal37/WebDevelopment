@@ -2,6 +2,8 @@
     margin: 0 auto;
     width: 90%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+    border-radius: 20px;
 }
 
 .nav1{
@@ -12,6 +14,7 @@
 .head{
     display: flex;
     justify-content: left;
+    padding-left: 5px;
 }
 li{
     list-style: none;
@@ -28,11 +31,20 @@ li{
 .box{
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1.5fr;
     grid-template-rows: 1fr 1fr ;
-    gap: 10px;
-    border: 2px solid black;
+    gap: 4px;
     color: #f3f3f3;
+   
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+}
+
+.box > *{
+    border-radius: 20px;
 }
 
 .item1{
@@ -43,12 +55,24 @@ li{
 
 .item2{
      grid-column: span 2;
-     background-color: #333;
-     padding: 20px;
+    background-color: #333;
+    padding: 20px;
+    order: 1;
 }
-
 .item3{
     grid-row: span 2;
       background-color: #333;
      padding: 20px;
+}
+
+
+@media(max-width: 850px){
+      .head{
+        display: grid;
+        justify-content: center;
+      }
+
+      li{
+        display: none;
+      }
 }
