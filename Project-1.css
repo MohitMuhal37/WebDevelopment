@@ -31,8 +31,8 @@ li{
 .box{
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1.5fr;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: repeat(2, 1fr)1.5fr;
+    grid-template-rows: repeat(2, 1fr);
     gap: 4px;
     color: #f3f3f3;
    
@@ -65,8 +65,16 @@ li{
      padding: 20px;
 }
 
+footer{
+    margin-top: 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: #333;
+    color:#f3f3f3;
+}
 
-@media(max-width: 850px){
+@media(max-width: 1250px){
       .head{
         display: grid;
         justify-content: center;
