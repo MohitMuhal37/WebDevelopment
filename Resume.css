@@ -1,0 +1,17 @@
+body{
+    margin: 0 auto;
+
+}
+.head{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style:oblique;
+}
+
+#intro{
+    overflow: hidden;
+    background-image: url("Assets/images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-concrete.jpg");
+    background-size: cover;
+    min-height: 400px;
+}
