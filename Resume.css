@@ -15,3 +15,17 @@ body{
     background-size: cover;
     min-height: 400px;
 }
+
+.img-1{
+    border-radius: 50%;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.max{
+    text-decoration: none;
+    color: white;
+}
+
