@@ -1,10 +1,7 @@
 body{
     margin: 0 auto;
 }
-.contain
-{
-    background-color: #11101032;
-}
+
 
 .head{
   font-family: "Caveat", cursive;
@@ -38,20 +35,10 @@ img{
     min-height: 100px;
 }
 
-.gradient-background {
-   background: linear-gradient(300deg, #0c262e, #49262b, #15030173);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
+.l1{
+    color: white;
 }
 
-@keyframes body {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.head1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
