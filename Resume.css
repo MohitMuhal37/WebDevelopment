@@ -1,7 +1,11 @@
 body{
     margin: 0 auto;
-
 }
+.contain
+{
+    background-color: #11101032;
+}
+
 .head{
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
@@ -29,3 +33,25 @@ img{
     color: white;
 }
 
+#foot{
+    background-image: url("Assets/images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-concrete.jpg");
+    min-height: 100px;
+}
+
+.gradient-background {
+   background: linear-gradient(300deg, #0c262e, #49262b, #15030173);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes body {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
