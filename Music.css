@@ -9,15 +9,24 @@ body{
 #title{
     text-align: center;
     font-size: 4rem;
-    text-shadow: 3px 0 red;
+    text-shadow: 3px 0 rgb(0, 234, 255);
     color: white;
+}
+
+footer{
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 0 rgb(0, 234, 255);
+    color: white;
+    padding-bottom: 5px;
+    font-weight: bolder;
 }
 
 .sets{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 70vh;
+    height: 65vh;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -88,7 +97,15 @@ body{
     border-radius: 50px;
     /* background-color: rgba(32, 31, 26, 0.844); */
     color: white;
-    text-shadow: 2px 0 red;
+    text-shadow: 2px 0 rgb(0, 234, 255);
     font-weight: 900;
     font-size: 1rem;
+}
+
+
+
+.music:hover{
+    height: 200px;
+    width: 200px;
+    box-shadow: 4px 4px 30px rgb(0, 234, 255);
 }
