@@ -1,8 +1,5 @@
-function onClick(){
-  changeAudio();
-}
-function changeAudio() {
-    const btnInner = this.innerHTML; 
+const  onClick = () => {
+     const btnInner = this.innerHTML; 
 
     switch(btnInner){
     case 'w' :
@@ -42,8 +39,13 @@ function changeAudio() {
     }
 }
 
+const pressed = (event) =>{
+    console.log(event);
+}
+
 // if we want ot select all queryy with same name we must use a foreacch loop for traversing all of them and we must use className with .
 const btn = document.querySelectorAll(".drum");
+document.addEventListener("keypress", pressed);
 
 btn.forEach((item) => {
     item.addEventListener('click', onClick);
