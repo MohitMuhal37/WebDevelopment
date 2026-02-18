@@ -2,6 +2,7 @@ body{
     margin: 0 auto;
     /* width: 90%; */
     background-color:rgba(32, 31, 26, 0.844);
+    /* background-color:rgba(151, 149, 137, 0.844); */
     font-family: monospace;
 }
 
@@ -25,35 +26,56 @@ body{
 
 
 .K{
-
+    background-image: url('Assets/images/KK.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .A{
-
+    background-image: url('Assets/images/Aatif.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .J{
-
+    background-image: url('Assets/images/Jagjit.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .N{
-
+    background-image: url('Assets/images/Nusrat.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .M{
-
+    background-image: url('Assets/images/Irfan.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .G{
-
+    background-image: url('Assets/images/Amrinder.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .S{
-
+    background-image: url('Assets/images/Sonu.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 #333;
   opacity: 0.5;
 }
 
@@ -62,9 +84,9 @@ body{
     width: 150px;
     background-color: white;
     text-align: center;
-    border: 10px solid  rgba(32, 31, 26, 0.367);
+    border: 10px solid  rgba(0, 0, 0, 0.948);
     border-radius: 50px;
-    background-color: rgba(32, 31, 26, 0.844);
+    /* background-color: rgba(32, 31, 26, 0.844); */
     color: white;
     text-shadow: 2px 0 red;
     font-weight: 900;

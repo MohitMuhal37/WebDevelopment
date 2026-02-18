@@ -13,7 +13,7 @@ function addSound(key){
 
     switch (key){
             case 'KK':
-            currentAudio  = new Audio('Assets/sounds/Aadat.mp3');
+            currentAudio  = new Audio('Assets/sounds/TeriYadoon.mp3');
             currentAudio.play();
             break;
 
@@ -23,27 +23,27 @@ function addSound(key){
             break;
 
             case 'Jagjit':
-            currentAudio  = new Audio('Assets/sounds/Aadat.mp3');
+            currentAudio  = new Audio('Assets/sounds/Fariyad.mp3');
             currentAudio.play();
             break;
 
             case 'Sonu':
-            currentAudio  = new Audio('Assets/sounds/Aadat.mp3');
+            currentAudio  = new Audio('Assets/sounds/Kahon.mp3');
             currentAudio.play();
             break;
 
-            case 'Nursat':
-            currentAudio  = new Audio('Assets/sounds/Aadat.mp3');
+            case 'Nusrat':
+            currentAudio  = new Audio('Assets/sounds/Dekhte.mp3');
             currentAudio.play();
             break;
 
-            case 'Md.Imran':
-            currentAudio  = new Audio('Assets/sounds/Aadat.mp3');
+            case 'Md.Irfan':
+            currentAudio  = new Audio('Assets/sounds/Dil.mp3');
             currentAudio.play();
             break;
 
             case 'Amrinder':
-            currentAudio  = new Audio('Assets/sounds/Aadat.mp3');
+            currentAudio  = new Audio('Assets/sounds/Dildari.mp3');
             currentAudio.play();
             break;
     }
