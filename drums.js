@@ -1,51 +1,62 @@
+let currentAudio = 0;
+
 function  onClick  () {
      const btnInner = this.innerHTML; 
      soundChecker(btnInner);
      applyAnimation(btnInner);
+    //  stopAudio(btnInner);
 }
 
 function soundChecker (key) {
+    if(currentAudio){
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+    }
+
     switch(key){
     case 'w' :
-    var audio  = new Audio("Assets/sounds/crash.mp3");
-    audio.play();
+     currentAudio  = new Audio("Assets/sounds/crash.mp3");
+    currentAudio.play();
     break;
     
     case 'a' :
-    var audio  = new Audio("Assets/sounds/tom-1.mp3");
-    audio.play();
+     currentAudio  = new Audio("Assets/sounds/tom-1.mp3");
+    currentAudio.play();
     break;
 
     case 's':
-    var audio = new Audio("Assets/sounds/snare.mp3");
-    audio.play();
+     currentAudio = new Audio("Assets/sounds/snare.mp3");
+    currentAudio.play();
     break;
 
     case 'd':
-    var audio = new Audio("Assets/sounds/tom-3.mp3");
-    audio.play();
+     currentAudio = new Audio("Assets/sounds/tom-3.mp3");
+    currentAudio.play();
     break;
 
     case 'j':
-    var audio = new Audio("Assets/sounds/tom-4.mp3");
-    audio.play();
+     currentAudio = new Audio("Assets/sounds/tom-4.mp3");
+    currentAudio.play();
     break;
 
     case 'k':
-    var audio = new Audio("Assets/sounds/tom-2.mp3");
-    audio.play();
+     currentAudio = new Audio("Assets/sounds/tom-2.mp3");
+    currentAudio.play();
     break;
 
     case 'l':
-    var kick = new Audio("Assets/sounds/Aadat.mp3");
-    kick.play();
+     currentAudio = new Audio("Assets/sounds/Aadat.mp3");
+    currentAudio.play();
     break;
     }
+
+    // currentAudio.play();
 }
 
 const pressed = (event) =>{
     soundChecker(event.key);
     applyAnimation(event.key);
+    // stopAudio(event.key);
 }
 
 // apple annimation on buttons
@@ -61,4 +72,5 @@ document.addEventListener("keypress", pressed);
 
 btn.forEach((item) => {
     item.addEventListener('click', onClick);
+    // item.addEventListener('click', stopAudio);
 })
