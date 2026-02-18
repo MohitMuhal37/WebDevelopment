@@ -15,7 +15,7 @@ function soundChecker (key) {
 
     switch(key){
     case 'w' :
-     currentAudio  = new Audio("Assets/sounds/crash.mp3");
+    currentAudio  = new Audio("Assets/sounds/crash.mp3");
     currentAudio.play();
     break;
     
