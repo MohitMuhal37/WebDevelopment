@@ -1,4 +1,5 @@
 let currentAudio = 0;
+
 function playMusic (){
     const innerbutton = this.innerHTML;
     addSound(innerbutton);
