@@ -110,7 +110,7 @@ body{
     box-shadow: 4px 4px 30px rgb(0, 234, 255);
 }
 
-@media((min-width : 600px)){
+@media((min-width : 300px)){
       #foot{
         margin-top: 70px;
       }
