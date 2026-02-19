@@ -12,11 +12,9 @@ body{
 }
 
 #foot{
-    font-size: 2rem;
     text-align: center;
     text-shadow: 2px 0 rgb(0, 234, 255);
     color: white;
-    padding-bottom: 5px;
     font-weight: bolder;
 }
 
@@ -110,8 +108,3 @@ body{
     box-shadow: 4px 4px 30px rgb(0, 234, 255);
 }
 
-@media((min-width : 300px)){
-     #foot{
-        display: none;
-     }
-}
