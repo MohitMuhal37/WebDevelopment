@@ -111,7 +111,7 @@ body{
 }
 
 @media((min-width : 300px)){
-      #foot{
-        margin-top: 90px;
-      }
+     #foot{
+        display: none;
+     }
 }
