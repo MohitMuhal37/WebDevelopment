@@ -1,8 +1,6 @@
 body{
     margin: 0 auto;
-    /* width: 90%; */
     background-color:rgba(32, 31, 26, 0.844);
-    /* background-color:rgba(151, 149, 137, 0.844); */
     font-family: monospace;
 }
 
@@ -24,10 +22,10 @@ footer{
 
 .sets{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    height: 65vh;
+    flex-wrap: wrap;
     justify-content: center;
+    height: 70vh;
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
