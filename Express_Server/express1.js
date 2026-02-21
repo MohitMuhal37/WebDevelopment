@@ -6,13 +6,22 @@ app.get("/", (req, res) => {
     res.send("<h1>Express js</h1>");
     // console.log(req.rawHeaders);
 });
-app.get("/about", (req, res) => {
-    res.send("<h2>About page</h2>");
-    // console.log(req.rawHeaders);
+
+app.post("/registered", (req, res) => {
+    res.send("getting registerd");
+    res.sendStatus(201);
 });
-app.get("/contact", (req, res) => {
-    res.send("<h2>Contact page</h2>");
-    // console.log(req.rawHeaders);
+
+app.put("/user/mohit", (req, res) => {
+    res.sendStatus(202);
+});
+
+app.patch("/user/mohit", (req, res) => {
+    res.sendStatus(200);
+});
+
+app.delete("/user/mohit", (req, res) => {
+    res.sendStatus(200);
 });
 
 app.listen(port, () => {
