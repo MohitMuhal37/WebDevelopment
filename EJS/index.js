@@ -9,9 +9,20 @@ app.listen(port,() => {
 
 
 app.get('/',(req, res) => {
-   res.render("index.ejs", {
-    daytype: 'a weekday',
-    advie: 'work hard'
+    const today = new Date();
+    const day = today.getDay();
+    
+    let type = 'a weekDay';
+    let adv = 'work hard';
+
+
+    if(day === 0 || day === 6){
+        type = 'a weekend';
+        adv = 'its time to fun';
+    }
+    res.render("index.ejs", {
+    daytype: type,
+    advise: adv
    });
     // getDay();
 });
