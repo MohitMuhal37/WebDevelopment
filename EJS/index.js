@@ -24,5 +24,5 @@ app.get('/',(req, res) => {
     daytype: type,
     advise: adv
    });
-    // getDay();
+    getDay();
 });
