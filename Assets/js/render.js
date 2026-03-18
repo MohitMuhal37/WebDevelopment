@@ -26,6 +26,6 @@ const person = {
 }
 
 const Json = JSON.stringify(person);
-const jsonData = JSON.parse(person);
+const jsonData = JSON.parse(Json);
 console.log(Json);
 console.log(jsonData);
