@@ -1,5 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
+import pg from 'pg'
 
 const app = express();
 const port = 3000;
@@ -11,6 +12,14 @@ let quiz = [
 ];
 
 let totalCorrect = 0;
+
+const db = new pg.Client({
+    user : 'postgres',
+    host : 'localhost',
+    database : 'MilkiWay',
+    password : 'Mohit21131',
+    port : 5432,
+});
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
