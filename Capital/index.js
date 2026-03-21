@@ -21,6 +21,16 @@ const db = new pg.Client({
     port : 5432,
 });
 
+
+db.query('select * from world', (res, req) => {
+    if(err){
+      console.error('error executing query', err.stack);
+    }else{
+      quiz = res.rows;
+    }
+    db.end();
+});
+
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
