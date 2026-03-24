@@ -9,7 +9,7 @@ const root = ReactDom.createRoot(document.getElementById('root'));
 root.render(<>
 <h1 className="heading">Hi i am heading</h1>
     <ul>
-        <li>item 1</li>
+        <img src="../public/favicon.svg" alt="ko" />
         <li>tem 2</li>
         <li>item 3</li>
     </ul>
