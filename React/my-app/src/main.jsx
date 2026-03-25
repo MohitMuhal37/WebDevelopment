@@ -1,7 +1,9 @@
-// import { StrictMode } from 'react'
-// import { createRoot } from 'react-dom/client'
-// import App from './App.jsx'
+import react from 'react'
+import ReactDom from 'react-dom/client'
+import Heading from './component'
 
-// createRoot(document.getElementById('root')).render(
-//     <App />
-// )
+const root = ReactDom.createRoot(document.getElementById('root'));
+
+root.render(
+    <Heading />
+)

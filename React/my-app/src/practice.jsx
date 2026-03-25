@@ -2,6 +2,8 @@ import "../src/style.css";
 import React from "react";
 import ReactDom from "react-dom/client";
 import Heading from "./component.jsx"
+import Greet from "./Greet.jsx"
+import Time from "./Time";
 // const name = 'Mohit';
 // const year = 2026
 
@@ -26,6 +28,11 @@ const img = 'https://picsum.photos/200';
 // root.render(<>
 //     <Head />
 // </>)
-root.render(<>
-<Heading />
-</>)
+// root.render(<>
+// <Heading />
+// <Time />
+// </>)
+
+root.render(
+    <Heading />
+)

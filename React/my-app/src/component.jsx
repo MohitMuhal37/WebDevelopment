@@ -11,13 +11,4 @@ function Heading(){
     </>
 };
 
-function List(){
-    return <>
-    <ul>
-        <li>Rajma</li>
-        <li>Chawal</li>
-        <li>Bhindi</li>
-    </ul>
-    </>
-}
 export default Heading; List;
