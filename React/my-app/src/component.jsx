@@ -1,6 +1,6 @@
 import React from "react";
 
-function Heading(){
+function component(){
     return <> 
     <h1>Hi i am New heading</h1>
     <ul>
@@ -11,4 +11,4 @@ function Heading(){
     </>
 };
 
-export default Heading; List;
+export default component;
