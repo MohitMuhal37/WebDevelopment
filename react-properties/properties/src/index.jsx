@@ -1,39 +1,30 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDom from "react-dom/client";
 
 function Card(props) {
   return (
     <div>
-      <h2>{props.name}</h2>
-      <img src={props.img} alt="avatar_img" />
-      <p>{props.tel}</p>
-      <p>{props.email}</p>
+
+    <h2>
+      Hi I am Mohit
+    </h2>
+    <img src="../public/Assets/images/Mohit Image.png" alt="" />
     </div>
   );
 }
 
-ReactDOM.render(
-  <div>
-    <h1>My Contacts</h1>
-    <Card
-      name="Mohit"
-      // src="../public/Assets/images/Mohit Images"
-      img="../public/Assets/images/Mohit Image.png"
-      tel="+123 456 789"
-      email="b@beyonce.com"
-    />
-    <Card
-      name="Jack Bauer"
-      img="https://pbs.twimg.com/profile_images/625247595825246208/X3XLea04_400x400.jpg"
-      tel="+7387384587"
-      email="jack@nowhere.com"
-    />
-  </div>,
-  document.getElementById("root")
-);
+const root = ReactDom.createRoot(document.getElementById('root'));
+
+root.render(
+  <>
+  <Card />
+  </>
+)
 
 // If you're running this locally in VS Code use the commands:
 // npm install
 // to install the node modules and
 // npm run dev
 // to launch your react project in your browser
+
+export default Card;
