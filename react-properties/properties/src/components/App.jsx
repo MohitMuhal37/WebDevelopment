@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card"
+import Avatar from "./Avatar"
 
 function App(){
 
@@ -23,7 +24,8 @@ function App(){
      <h1 className="heading">My Contacts</h1>
  <Card name="Mohit" img="../public/Assets/images/Mohit Image.png" tel="88140xxxxx" email="mohit@mail.com"/>
   <Card name="Amrinder" img="../public/Assets/images/Amrinder.jpg" tel="98190xxxxx" email="amrinder@mail.com"/>
-  <Card name="Jagjit" img="../public/Assets/images/jagjit.jpg" tel="78199xxxxx" email="jagjit@mail.com" /> 
+  <Card name="Jagjit" img="../public/Assets/images/jagjit.jpg" tel="78199xxxxx" email="jagjit@mail.com" />
+  <Avatar data="hi this is new Avatar text"/> 
     </>
   )
 }
