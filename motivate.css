@@ -1,7 +1,9 @@
 body{
     background-color: black;
 }
-
+span{
+    color: white;
+}
 h1{
   color: white;
   font-family: "Libre Baskerville", serif;
